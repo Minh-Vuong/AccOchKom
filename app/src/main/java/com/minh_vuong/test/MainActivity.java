@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ButtonCom(View view) {
-        Intent intent = new Intent(this, Compass.class);
+        Intent intent = new Intent(this, CompassActivity.class);
         startActivity(intent);
     }
 }
